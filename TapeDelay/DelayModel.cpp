@@ -88,7 +88,6 @@ namespace nslDAFX {
         if(param > 0 && param < 1)
         {
             mAlpha = 1-param*param;
-            mOneMinusAlpha = 1 - mAlpha;
         }
         return mAlpha;
     };
